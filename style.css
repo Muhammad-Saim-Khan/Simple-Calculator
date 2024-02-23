@@ -1,0 +1,61 @@
+body {
+  background-color: black;
+}
+table {
+  margin-top: 170px;
+  border: 1px solid black;
+  margin-left: auto;
+  background-color: black;
+  margin-right: auto;
+}
+
+input[type="button"] {
+  width: 100%;
+  padding: 20px 40px;
+  background-color: rgb(25, 251, 0);
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+input[type="text"]:hover {
+  background-color: rgb(25, 251, 0);
+}
+input[type="text"] {
+  padding: 20px 30px;
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  background-color: rgb(243, 243, 243);
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+h1 {
+  position: absolute;
+  /* top: 50%; */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* margin-bottom: 100px; */
+  margin-top: -30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: transparent;
+  text-align: center;
+  font-size: 40px;
+  animation: effect 2s linear infinite;
+  /* border: 2px solid white; */
+}
+
+@keyframes effect {
+  0% {
+    background: linear-gradient(#008000, #00ff00);
+    -webkit-background-clip: text;
+  }
+
+  100% {
+    background: linear-gradient(#3ce7d7, #000fff);
+    -webkit-background-clip: text;
+  }
+}
